@@ -1,9 +1,7 @@
-'use client';
-
-import { css } from '@emotion/react';
+import { css } from '@kuma-ui/core';
 
 export function Normal() {
-  return <p css={styles.text}>Normal</p>;
+  return <p className={styles.text}>Normal</p>;
 }
 
 const styles = {

@@ -1,7 +1,9 @@
+const { withKumaUI } = require('@kuma-ui/next-plugin');
+
 /**
  * @type {import('next').NextConfig}
  */
-module.exports = {
+module.exports = withKumaUI({
   swcMinify: true,
   output: 'standalone',
   reactStrictMode: true,
@@ -15,4 +17,4 @@ module.exports = {
   compiler: {
     emotion: true,
   },
-};
+});

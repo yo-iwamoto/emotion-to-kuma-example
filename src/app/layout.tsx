@@ -2,6 +2,7 @@
 
 import type { Metadata } from 'next';
 import type { PropsWithChildren } from 'react';
+import { KumaRegistry } from '@kuma-ui/next-plugin/registry';
 
 export const metadata = {
   title: 'emotion to kuma example',
@@ -11,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang='en'>
-      <body>{children}</body>
+      <body>
+        <KumaRegistry>{children}</KumaRegistry>
+      </body>
     </html>
   );
 }
