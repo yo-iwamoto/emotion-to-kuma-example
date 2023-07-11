@@ -1,0 +1,28 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Keyframe > renders unchanged 1`] = `
+<DocumentFragment>
+  @keyframes animation-0 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.emotion-0 {
+  color: purple;
+  font-size: 40px;
+  -webkit-animation: animation-0 1s linear;
+  animation: animation-0 1s linear;
+}
+
+<p
+    class="emotion-0"
+  >
+    Keyframe
+  </p>
+</DocumentFragment>
+`;

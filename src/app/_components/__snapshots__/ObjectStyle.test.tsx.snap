@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ObjectStyle > renders unchanged 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  color: blue;
+  font-size: 40px;
+}
+
+<p
+    class="emotion-0"
+  >
+    ObjectStyle
+  </p>
+</DocumentFragment>
+`;

@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Normal > renders unchanged 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  color: green;
+  font-size: 40px;
+}
+
+<p
+    class="emotion-0"
+  >
+    Normal
+  </p>
+</DocumentFragment>
+`;

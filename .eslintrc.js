@@ -13,7 +13,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'prettier',
-    'plugin:storybook/recommended',
   ],
   rules: {
     'react/react-in-jsx-scope': 'off',

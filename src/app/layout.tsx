@@ -1,3 +1,5 @@
+/** @jsxImportSource react */
+
 import type { Metadata } from 'next';
 import type { PropsWithChildren } from 'react';
 
