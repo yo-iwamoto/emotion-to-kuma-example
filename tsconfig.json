@@ -16,9 +16,6 @@
     "isolatedModules": true,
     "incremental": false,
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
     "module": "esnext",
     "resolveJsonModule": true,
     "types": ["vitest/globals"],
