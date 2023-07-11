@@ -1,8 +1,8 @@
-import { setupEmotionTest } from '../../__tests__/setup-function';
+import { setupKumaTest } from '../../__tests__/setup-function';
 import { Normal } from './Normal';
 import { render } from '@testing-library/react';
 
-beforeAll(() => setupEmotionTest());
+beforeAll(() => setupKumaTest());
 
 describe('Normal', () => {
   it('renders unchanged', () => {
