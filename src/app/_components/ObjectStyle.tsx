@@ -1,14 +1,12 @@
-'use client';
-
-import { css } from '@emotion/react';
+import { css } from '@kuma-ui/core';
 
 export function ObjectStyle() {
-  return <p css={styles.text}>ObjectStyle</p>;
+  return <p className={styles.text}>ObjectStyle</p>;
 }
 
 const styles = {
-  text: css({
-    color: 'blue',
-    fontSize: 40,
-  }),
+  text: css`
+    color: blue;
+    font-size: 40px;
+  `,
 };

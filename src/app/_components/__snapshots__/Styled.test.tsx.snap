@@ -2,13 +2,13 @@
 
 exports[`Styled > renders unchanged 1`] = `
 <DocumentFragment>
-  .emotion-0 {
+  .🐻-1582507431 {
   color: red;
   font-size: 40px;
 }
 
-<p
-    class="emotion-0 emotion-1"
+  <p
+    class="🐻-1582507431"
   >
     Styled
   </p>

@@ -1,9 +1,8 @@
-import { setupEmotionTest } from '../../__tests__/setup-function';
+import { setup } from 'src/__tests__/setup';
 import { MediaQuery } from './MediaQuery';
 import { render } from '@testing-library/react';
 
-beforeAll(() => setupEmotionTest());
-
+beforeAll(() => setup());
 describe('MediaQuery', () => {
   it('renders unchanged', () => {
     const { asFragment } = render(<MediaQuery />);

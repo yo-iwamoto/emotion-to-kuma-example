@@ -2,7 +2,13 @@
 
 exports[`Keyframe > renders unchanged 1`] = `
 <DocumentFragment>
-  @keyframes animation-0 {
+  .🐻-2423249117 {
+  color: purple;
+  font-size: 40px;
+  animation: fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -12,15 +18,8 @@ exports[`Keyframe > renders unchanged 1`] = `
   }
 }
 
-.emotion-0 {
-  color: purple;
-  font-size: 40px;
-  -webkit-animation: animation-0 1s linear;
-  animation: animation-0 1s linear;
-}
-
-<p
-    class="emotion-0"
+  <p
+    class="🐻-2423249117"
   >
     Keyframe
   </p>

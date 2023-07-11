@@ -1,22 +1,22 @@
-'use client';
-
-import { css, keyframes } from '@emotion/react';
+import { css } from '@kuma-ui/core';
 
 export function Keyframe() {
-  return <p css={styles.text}>Keyframe</p>;
+  return <p className={styles.text}>Keyframe</p>;
 }
 
 const styles = {
   text: css`
-    color: purple;
-    font-size: 40px;
-    animation: ${keyframes`
+    @keyframes fadeIn {
       0% {
         opacity: 0;
       }
       100% {
         opacity: 1;
       }
-    `} 1s linear;
+    }
+
+    color: purple;
+    font-size: 40px;
+    animation: fadeIn 1s linear;
   `,
 };

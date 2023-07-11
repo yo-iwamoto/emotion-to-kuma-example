@@ -1,25 +1,13 @@
-'use client';
-
-import { css } from '@emotion/react';
+import { css } from '@kuma-ui/core';
 
 export function Composition() {
-  return <p css={[styles.text, styles.bold]}>Composition</p>;
+  return <p className={styles.text}>Composition</p>;
 }
-
-const colorStyle = css`
-  color: skyblue;
-`;
-
-const FONT_STYLES = {
-  lg: 40,
-};
 
 const styles = {
   text: css`
-    ${colorStyle}
-    font-size: ${FONT_STYLES.lg}px;
-  `,
-  bold: css`
+    color: skyblue;
+    font-size: 40px;
     font-weight: bold;
   `,
 };

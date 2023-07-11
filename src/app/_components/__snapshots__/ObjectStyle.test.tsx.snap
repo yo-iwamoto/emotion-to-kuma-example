@@ -2,13 +2,13 @@
 
 exports[`ObjectStyle > renders unchanged 1`] = `
 <DocumentFragment>
-  .emotion-0 {
+  .🐻-3877719617 {
   color: blue;
   font-size: 40px;
 }
 
-<p
-    class="emotion-0"
+  <p
+    class="🐻-3877719617"
   >
     ObjectStyle
   </p>

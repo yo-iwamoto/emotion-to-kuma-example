@@ -1,9 +1,8 @@
-import { setupEmotionTest } from '../../__tests__/setup-function';
+import { setup } from 'src/__tests__/setup';
 import { Composition } from './Composition';
 import { render } from '@testing-library/react';
 
-beforeAll(() => setupEmotionTest());
-
+beforeAll(() => setup());
 describe('Composition', () => {
   it('renders unchanged', () => {
     const { asFragment } = render(<Composition />);

@@ -2,14 +2,14 @@
 
 exports[`Composition > renders unchanged 1`] = `
 <DocumentFragment>
-  .emotion-0 {
+  .🐻-3178340577 {
   color: skyblue;
   font-size: 40px;
   font-weight: bold;
 }
 
-<p
-    class="emotion-0"
+  <p
+    class="🐻-3178340577"
   >
     Composition
   </p>

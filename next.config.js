@@ -14,7 +14,4 @@ module.exports = withKumaUI({
     typedRoutes: true,
     turbo: true,
   },
-  compiler: {
-    emotion: true,
-  },
 });
