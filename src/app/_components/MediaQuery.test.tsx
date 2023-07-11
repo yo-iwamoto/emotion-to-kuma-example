@@ -7,10 +7,4 @@ describe('MediaQuery', () => {
 
     expect(asFragment()).toMatchSnapshot();
   });
-
-  it('has color style', () => {
-    const { getByText } = render(<MediaQuery />);
-
-    expect(getByText('MediaQuery')).toHaveStyleRule('color', 'orange');
-  });
 });

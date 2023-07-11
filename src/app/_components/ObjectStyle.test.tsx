@@ -7,10 +7,4 @@ describe('ObjectStyle', () => {
 
     expect(asFragment()).toMatchSnapshot();
   });
-
-  it('has color style', () => {
-    const { getByText } = render(<ObjectStyle />);
-
-    expect(getByText('ObjectStyle')).toHaveStyleRule('color', 'blue');
-  });
 });

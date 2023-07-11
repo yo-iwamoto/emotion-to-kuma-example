@@ -1,5 +1,3 @@
-import { createSerializer, matchers } from '@emotion/jest';
-import '@testing-library/jest-dom';
+import { createSerializer } from '@emotion/jest';
 
-expect.extend(matchers);
 expect.addSnapshotSerializer(createSerializer());

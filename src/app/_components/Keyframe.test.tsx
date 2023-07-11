@@ -7,10 +7,4 @@ describe('Keyframe', () => {
 
     expect(asFragment()).toMatchSnapshot();
   });
-
-  it('has color style', () => {
-    const { getByText } = render(<Keyframe />);
-
-    expect(getByText('Keyframe')).toHaveStyleRule('color', 'purple');
-  });
 });

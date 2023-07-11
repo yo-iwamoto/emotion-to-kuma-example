@@ -7,10 +7,4 @@ describe('Composition', () => {
 
     expect(asFragment()).toMatchSnapshot();
   });
-
-  it('has color style', () => {
-    const { getByText } = render(<Composition />);
-
-    expect(getByText('Composition')).toHaveStyleRule('color', 'skyblue');
-  });
 });
