@@ -2,25 +2,25 @@
 
 exports[`MediaQuery > renders unchanged 1`] = `
 <DocumentFragment>
-  .emotion-0 {
+  .🐻-155337860 {
   color: orange;
   font-size: 32px;
 }
 
-@media screen and (375px <= width < 800px) {
-  .emotion-0 {
+@media screen and (375px &lt;= width &lt; 800px) {
+  .🐻-155337860 {
     font-size: 36px;
   }
 }
 
-@media screen and (800px <= width) {
-  .emotion-0 {
+@media screen and (800px &lt;= width) {
+  .🐻-155337860 {
     font-size: 40px;
   }
 }
 
-<p
-    class="emotion-0"
+  <p
+    class="🐻-155337860"
   >
     MediaQuery
   </p>

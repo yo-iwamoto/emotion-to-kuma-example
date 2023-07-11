@@ -1,9 +1,8 @@
-import { setupEmotionTest } from '../../__tests__/setup-function';
+import { setup } from 'src/__tests__/setup';
 import { ObjectStyle } from './ObjectStyle';
 import { render } from '@testing-library/react';
 
-beforeAll(() => setupEmotionTest());
-
+beforeAll(() => setup());
 describe('ObjectStyle', () => {
   it('renders unchanged', () => {
     const { asFragment } = render(<ObjectStyle />);
